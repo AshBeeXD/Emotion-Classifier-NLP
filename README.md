@@ -51,7 +51,7 @@ streamlit run app/app.py
 
 ## Notes
 - Pretrained model is saved in `outputs/model/`
-- Integrated Gradients plots (optional) should be saved under `outputs/interpretations/` and named using the format: `sample_{n}_{label}.png`
+- Integrated Gradients plots should be saved under `outputs/interpretations/` and named using the format: `sample_{n}_{label}.png`
 
 ## Credits
 Based on the GoEmotions dataset by Google Research.
