@@ -45,8 +45,8 @@ streamlit run app/app.py
 ```
 
 ## Example Output
-- Input: "I love this game"
-- Output: Predicted Emotion: `love`
+- Input: "I find this funny"
+- Output: Predicted Emotion: `amusement`
 - Shows prediction probabilities across all 28 classes
 
 ## Notes
