@@ -5,11 +5,13 @@ A simple NLP-based emotion classification app that uses a fine-tuned transformer
 ## Project Structure
 
 Emotion-Classifier-NLP/
+
 ├── notebooks/
 │   ├── 01_exploration.ipynb
 │   ├── 02_training.ipynb
 │   ├── 03_evaluation.ipynb
 │   └── 04_comparison.ipynb
+
 ├── src/
 │   ├── data_loader.py
 │   ├── model.py
@@ -17,14 +19,19 @@ Emotion-Classifier-NLP/
 │   ├── model_custom.py
 │   ├── train.py
 │   └── evaluate.py
+
 ├── app/
 │   └── app.py
+
 ├── outputs/
 │   ├── model/                  # Trained model
 │   ├── metrics/                # Evaluation metrics
 │   └── interpretations/        # Integrated gradients visualization plots
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .gitignore
 
 ## Features
