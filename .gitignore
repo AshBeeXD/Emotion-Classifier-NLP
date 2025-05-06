@@ -189,14 +189,10 @@ build/
 .DS_Store
 
 # Outputs
-outputs/model/
-outputs/metrics/report.json
-outputs/metrics/confusion_matrix.png
-outputs/metrics/interpretations/*.png
+outputs/model/model.safetensors
 
 # Large files
 *.pt
 *.bin
 *.h5
 
-outputs/model/model.safetensors
