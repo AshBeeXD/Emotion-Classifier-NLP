@@ -18,8 +18,9 @@ GOEMOTIONS_LABELS = [
 # Load model and tokenizer
 # -----------------------------
 MODEL_PATH = "outputs/model"
-model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
+model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH, device_map="auto", low_cpu_mem_usage=True)
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
+print("Model device:", next(model.parameters()).device)
 
 # -----------------------------
 # Streamlit UI
