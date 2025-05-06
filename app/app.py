@@ -1,3 +1,6 @@
+import os
+os.system("git lfs pull")
+
 import streamlit as st
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification

@@ -45,7 +45,7 @@ streamlit run app/app.py
 
 ## Running the App on a web browser
 
-You can visit https://emotion-classifier-nlp-snkrqqtalqexdcxoiumocc.streamlit.app/ to run the app online
+You can visit https://emotion-classifier-nlp.streamlit.app/ to run the app online
 
 ## Example Output
 - Input: "I find this funny"
@@ -57,7 +57,7 @@ You can visit https://emotion-classifier-nlp-snkrqqtalqexdcxoiumocc.streamlit.ap
 - Integrated Gradients plots should be saved under `outputs/interpretations/` and named using the format: `sample_{n}_{label}.png`
 
 
-# 📊 Performance Metrics
+# Performance Metrics
 
 | Metric     | Score |
 |------------|-------|
@@ -71,7 +71,7 @@ You can visit https://emotion-classifier-nlp-snkrqqtalqexdcxoiumocc.streamlit.ap
 
 
 
-# 🔍 Model Comparison (Hartmann vs Custom Model)
+# Model Comparison (Hartmann vs Custom Model)
 
 | Sample Sentence                                     | Hartmann Prediction(s)     | Custom Model Prediction(s) |
 |-----------------------------------------------------|-----------------------------|-----------------------------|
@@ -91,7 +91,7 @@ You can visit https://emotion-classifier-nlp-snkrqqtalqexdcxoiumocc.streamlit.ap
 
 ---
 
-# ⚠ Known Limitations
+# Known Limitations
 
 - **Single-label restriction**: While the data supports multi-label emotion classification, the model currently predicts only the highest probability emotion.
 - **Low support for some classes**: Emotions like grief and pride had low representation in the training data.
@@ -99,7 +99,7 @@ You can visit https://emotion-classifier-nlp-snkrqqtalqexdcxoiumocc.streamlit.ap
 
 ---
 
-# 🔎 Confidence Threshold
+# Confidence Threshold
 
 A **confidence threshold of 0.6** is applied in the app.  
 If the top emotion’s probability is below this value, the app returns:
@@ -110,7 +110,7 @@ This prevents overconfident predictions on uncertain or ambiguous text.
 
 ---
 
-# 🔮 Future Work
+# Future Work
 
 - Expand to multi-label predictions to better capture complex emotions.
 - Improve minority class performance via data augmentation or rebalancing.
@@ -120,7 +120,7 @@ This prevents overconfident predictions on uncertain or ambiguous text.
 
 ---
 
-# 👥 Credits
+# Credits
 
 - **Model architecture**: [RoBERTa](https://huggingface.co/roberta-base) (Hugging Face)
 - **Training dataset**: [GoEmotions](https://huggingface.co/datasets/go_emotions)
@@ -131,7 +131,7 @@ This prevents overconfident predictions on uncertain or ambiguous text.
 
 ---
 
-# 📝 License
+# License
 
 This project is licensed under the MIT License.  
 You can use, modify, and distribute the software freely, but there is no warranty.
