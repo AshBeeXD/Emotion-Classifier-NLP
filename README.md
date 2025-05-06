@@ -126,7 +126,7 @@ This prevents overconfident predictions on uncertain or ambiguous text.
 - **Training dataset**: [GoEmotions](https://huggingface.co/datasets/go_emotions)
 - **Reference model**: [Hartmann et al. (2023)](https://arxiv.org/abs/2305.05894)
 - **Streamlit App Framework**: [Streamlit](https://streamlit.io/)
-- **Berta Emotion Model**: [BERTa](https://huggingface.co/matejklemen/berta-base-emotion)
+- **Berta Emotion Model**: [BERTa](https://huggingface.co/bhadresh-savani/bert-base-uncased-emotion)
 - **Transformers Library**: [Hugging Face Transformers](https://huggingface.co/docs/transformers/index)
 
 ---
