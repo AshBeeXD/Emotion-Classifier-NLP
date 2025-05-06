@@ -35,11 +35,11 @@ Emotion-Classifier-NLP/
 - Shows sample integrated gradients visualizations per label (optional)
 
 ## Running the App Locally
-Make sure you have Streamlit and other dependencies installed:
+### Make sure you have Streamlit and other dependencies installed:
 
 pip install -r requirements.txt
 
-Then start the app using:
+### Then start the app using:
 
 streamlit run app/app.py
 
