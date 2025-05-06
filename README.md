@@ -34,16 +34,18 @@ Emotion-Classifier-NLP/
 - Displays model prediction probabilities
 - Shows sample integrated gradients visualizations per label (optional)
 
-## Running the App
+## Running the App Locally
 Make sure you have Streamlit and other dependencies installed:
 
 pip install -r requirements.txt
 
-Then start the app:
+Then start the app using:
 
 streamlit run app/app.py
 
-You can also visit https://emotion-classifier-nlp-snkrqqtalqexdcxoiumocc.streamlit.app/ to run the app on a web browser without having the model installed
+## Running the App on a web browser
+
+You can visit https://emotion-classifier-nlp-snkrqqtalqexdcxoiumocc.streamlit.app/ to run the app online
 
 ## Example Output
 - Input: "I find this funny"
