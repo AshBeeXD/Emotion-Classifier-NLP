@@ -36,8 +36,8 @@ if st.button("Classify") and input_text.strip():
         outputs = model(**inputs)
         probs = torch.nn.functional.softmax(outputs.logits, dim=1)[0]
 
-    pred_label_idx = torch.argmax(probs).item()
-    pred_score = probs[pred_label_idx].item()
+    pred_label_idx = torch.argmax(probs).cpu().item()
+    pred_score = probs[pred_label_idx].cpu().item()
     pred_emotion = GOEMOTIONS_LABELS[pred_label_idx]
 
     # -----------------------------
