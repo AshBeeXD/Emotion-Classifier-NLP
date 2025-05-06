@@ -43,6 +43,8 @@ Then start the app:
 
 streamlit run app/app.py
 
+You can also visit https://emotion-classifier-nlp-snkrqqtalqexdcxoiumocc.streamlit.app/ to run the app on a web browser without having the model installed
+
 ## Example Output
 - Input: "I find this funny"
 - Output: Predicted Emotion: `amusement`
@@ -52,10 +54,6 @@ streamlit run app/app.py
 - Pretrained model is saved in `outputs/model/`
 - Integrated Gradients plots should be saved under `outputs/interpretations/` and named using the format: `sample_{n}_{label}.png`
 
-## Credits
-Based on the GoEmotions dataset by Google Research.
-
----
 
 # 📊 Performance Metrics
 
@@ -65,9 +63,11 @@ Based on the GoEmotions dataset by Google Research.
 | Macro F1   | 48.3% |
 | Weighted F1| 59.6% |
 
-_Confusion matrix available in `outputs/metrics/confusion_matrix.png`._
+### Confusion matrix 
 
----
+![confusion_matrix](https://github.com/user-attachments/assets/f571bafa-daa9-4cf2-88cd-2bad069d187a)
+
+
 
 # 🔍 Model Comparison (Hartmann vs Custom Model)
 
