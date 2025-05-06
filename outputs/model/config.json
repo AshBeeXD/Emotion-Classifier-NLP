@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "bert-base-uncased",
+  "_name_or_path": "outputs/model",
   "architectures": [
     "BertForSequenceClassification"
   ],
